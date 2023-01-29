@@ -1,0 +1,6 @@
+{
+ :org        ""
+ :repository "ajchemist/java.time.tz-asia-seoul"
+
+ :github.token/pass-name "github.com/tokens/ajchemist"
+ }
