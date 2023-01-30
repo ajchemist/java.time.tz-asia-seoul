@@ -124,12 +124,18 @@
 
 
 (defn parse-local-date
-  ^LocalDate
-  [^String s ^DateTimeFormatter dtf]
-  (LocalDate/parse s dtf))
+  (^LocalDate
+   [^String s]
+   (LocalDate/parse s))
+  (^LocalDate
+   [^String s ^DateTimeFormatter dtf]
+   (LocalDate/parse s dtf)))
 
 
 (defn parse-local-dt
-  ^LocalDateTime
-  [^String s ^DateTimeFormatter dtf]
-  (LocalDateTime/parse s dtf))
+  (^LocalDateTime
+   [^String s]
+   (LocalDateTime/parse s))
+  (^LocalDateTime
+   [^String s ^DateTimeFormatter dtf]
+   (LocalDateTime/parse s dtf)))
