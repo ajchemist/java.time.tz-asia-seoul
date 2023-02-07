@@ -1,4 +1,4 @@
-(ns io.github.ajchemist.java.time.tz-asia-seoul.coerce.alpha
+(ns ajchemist.java.time.tz-asia-seoul.coerce.alpha
   (:import
    java.time.Instant
    java.time.LocalDate
